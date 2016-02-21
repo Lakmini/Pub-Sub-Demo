@@ -1,0 +1,16 @@
+{
+    "id": "Publisher",
+    "title": "Publisher",
+    "type": "gadget",
+    "thumbnail": "store://gadget/publisher-gadget/index.png",
+    "data": {
+        "url": "store://gadget/publisher-gadget/index.xml"
+    },
+    "notify": {
+        "select": {
+            "type": "fruits",
+            "description": "This notifies selected state"
+        }
+       
+    }
+}

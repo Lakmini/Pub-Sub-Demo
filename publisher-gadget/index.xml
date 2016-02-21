@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <ModulePrefs title="Publisher" height="250" description="Publisher-gadget">
+        <Require feature="pubsub-2"/>
+        <Require feature="dynamic-height"/>
+    </ModulePrefs>
+    <Content type="html">
+        <![CDATA[
+        <head>
+	<script language="javascript" type="text/javascript"
+	src="/portal/js/jquery-1.10.2.js"></script>
+	<script language="javascript" type="text/javascript" src="js/list.js"></script>
+	<head>
+	<body>
+	<select id="fruitList">
+		<option>Select fruits</option>
+		<option>Apple</option>
+		<option>Orange</option>
+		<option>Strawberry</option>
+		<option>Pineapple</option>
+		<option>Grapes</option>
+		<option>Mango</option>
+	</select>
+        </body>
+        ]]>
+    </Content>
+</Module>
