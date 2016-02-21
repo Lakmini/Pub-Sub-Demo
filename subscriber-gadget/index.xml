@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <ModulePrefs title="subscriber" height="250" description="subscriber-gadget">
+        <Require feature="pubsub-2"/>
+        <Require feature="dynamic-height"/>
+    </ModulePrefs>
+    <Content type="html">
+        <![CDATA[
+       <head>
+	<script language="javascript" type="text/javascript"
+	src="/portal/js/jquery-1.10.2.js"></script>
+	<script language="javascript" type="text/javascript"
+	src="js/subscriber.js"></script>
+	<head>
+	<body>
+	<div id="pannel">
+		<img id="fruit" src="img/fruit.png" />
+	</div>
+	</body>
+        ]]>
+    </Content>
+</Module>

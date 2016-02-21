@@ -1,0 +1,15 @@
+{
+    "id": "subscriber",
+    "title": "subscriber",
+    "type": "gadget",
+    "thumbnail": "store://gadget/subscriber-gadget/index.png",
+    "data": {
+        "url": "store://gadget/subscriber-gadget/index.xml"
+    },
+    "listen": {
+        "state-selected": {
+            "type": "fruits",
+            "description": "Used to filter based on state"
+        }
+       
+}
