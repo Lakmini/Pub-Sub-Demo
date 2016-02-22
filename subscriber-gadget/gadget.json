@@ -11,5 +11,6 @@
             "type": "fruits",
             "description": "Used to filter based on state"
         }
+}
        
 }
